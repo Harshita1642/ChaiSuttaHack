@@ -1,0 +1,10 @@
+{
+    "https://cdn.thewirecutter.com/wp-content/media/2023/06/bestlaptops-2048px-9765.jpg": {
+      "url": "https://cdn.thewirecutter.com/wp-content/media/2023/06/bestlaptops-2048px-9765.jpg",
+      "description": "PRODUCT:laptop COLOR:silver CATEGORY:gadget"
+    },
+    "https://example.com/image2.jpg": {
+      "url": "https://example.com/image2.jpg",
+      "description": "Description of image 2"
+    }
+}

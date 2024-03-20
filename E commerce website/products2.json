@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "name": "SonicScape Pro",
+      "image": "./images/image3.jpg",
+      "price": 54790,
+      "category": "headphone"
+    },
+    {
+        "id": 2,
+        "name": "PulseBeat Elite",
+        "image": "./images/image4.jpg",
+        "price": 34990,
+        "category": "headphone"
+      },
+      {
+        "id": 3,
+        "name": "EchoSphere X",
+        "image": "./images/image5.jpg",
+        "price": 43990,
+        "category": "headphone"
+      },
+      {
+        "id": 4,
+        "name": "AuraFlow Ultra",
+        "image": "./images/image6.jpg",
+        "price": 28990,
+        "category": "headphone"
+      },
+      {
+        "id": 5,
+        "name": "NovaWave Prime",
+        "image": "./images/image7.jpg",
+        "price": 23990,
+        "category": "headphone"
+      },
+      {
+        "id": 6,
+        "name": "SonicStream Max",
+        "image": "./images/image8.jpg",
+        "price": 19990,
+        "category": "headphone"
+      },
+      {
+        "id": 7,
+        "name": "HyperTune Elite",
+        "image": "./images/image2.jpg",
+        "price": 25990,
+        "category": "headphone"
+      },
+      {
+        "id": 8,
+        "name": "BeatBlaze Pro",
+        "image": "https://www.boat-lifestyle.com/cdn/shop/products/main3_6370be21-3c2f-48a8-bb18-edc49a667081_288x.png?v=1643619646",
+        "price": 37990,
+        "category": "headphone"
+      },
+      {
+        "id": 9,
+        "name": "AeroSound Elite",
+        "image": "https://media.istockphoto.com/id/1412240771/photo/headphones-on-white-background.jpg?s=612x612&w=0&k=20&c=DwpnlOcMzclX8zJDKOMSqcXdc1E7gyGYgfX5Xr753aQ=",
+        "price": 29990,
+        "category": "headphone"
+      },
+      {
+        "id": 10,
+        "name": "PulseDrive X",
+        "image": "https://hammeronline.in/cdn/shop/files/HammerBash2.0Headphones.webp?v=1690436990&width=1080",
+        "price": 44990,
+        "category": "headphone"
+      }
+]

@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Classic Couture",
+      "image": "./images/image28.jpg",
+      "price": 54790,
+      "category": "watch"
+    },
+    {
+      "id": 2,
+      "name": "StratusX Smartwatch",
+      "image": "https://img.beatxp.com/prod/product/372/Artboard%201%20%283%29.webp",
+      "price": 39900,
+      "category": "watch"
+    },
+    {
+      "id": 3,
+      "name": "ChronoTech Titanium",
+      "image": "./images/image24.jpg",
+      "price": 45990,
+      "category": "watch"
+    },
+    {
+      "id": 4,
+      "name": "LunarRise Chronograph",
+      "image": "./images/image32.jpg",
+      "price": 28990,
+      "category": "watch"
+    },
+    {
+      "id": 5,
+      "name": "Zenith Horizon",
+      "image": "./images/image25.jpg",
+      "price": 32990,
+      "category": "watch"
+    },
+    {
+      "id": 6,
+      "name": "Heritage Harmony",
+      "image": "./images/image29.jpg",
+      "price": 21900,
+      "category": "watch"
+    },
+    {
+      "id": 7,
+      "name": "AstraTech Astronaut",
+      "image": "./images/image26.jpg",
+      "price": 37900,
+      "category": "watch"
+    },
+    {
+      "id": 8,
+      "name": "GalaxyX Explorer",
+      "image": "./images/image23.jpg",
+      "price": 49900,
+      "category": "watch"
+    },
+    {
+      "id": 9,
+      "name": "Prestige Prime",
+      "image": "./images/image31.jpg",
+      "price": 35900,
+      "category": "watch"
+    },
+    {
+      "id": 10,
+      "name": "TitanNova Chronometer",
+      "image": "./images/image34.jpg",
+      "price": 54900,
+      "category": "watch"
+    }
+  ]
+  

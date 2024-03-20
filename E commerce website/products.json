@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "name": "headphone 1",
+      "image": "./images/image3.jpg",
+      "price": 54790,
+      "category": "headphone"
+    },
+    {
+      "id": 2,
+      "name": "watch",
+      "image": "./images/image24.jpg",
+      "price": 1746500,
+      "category": "watch"
+    },
+    {
+      "id": 3,
+      "name": "watch",
+      "image": "./images/image25.jpg",
+      "price": 1746500,
+      "category": "watch"
+    },
+    {
+      "id": 4,
+      "name": "Game Controller",
+      "image": "./images/image10.jpg",
+      "price": 1746500,
+      "category": "gaming"
+    },
+    {
+        "id": 5,
+        "name": "Game Controller",
+        "image": "./images/image14.jpg",
+        "price": 54790,
+        "category": "gaming"
+      },
+      {
+        "id": 6,
+        "name": "headphone",
+        "image": "./images/image4.jpg",
+        "price": 54790,
+        "category": "headphone"
+      },
+      {
+        "id": 7,
+        "name": "Watch",
+        "image": "./images/image26.jpg",
+        "price": 54790,
+        "category": "watch"
+      },
+      {
+        "id": 8,
+        "name": "Camera",
+        "image": "./images/image22.jpg",
+        "price": 54790,
+        "category": "camera"
+      },
+      {
+        "id": 9,
+        "name": "Watch",
+        "image": "./images/image23.jpg",
+        "price": 54790,
+        "category": "watch"
+      },
+      {
+        "id": 10,
+        "name": "Camera",
+        "image": "./images/image18.jpg",
+        "price": 54790,
+        "category": "camera"
+      },
+      {
+        "id": 11,
+        "name": "Gaming Controller",
+        "image": "./images/image12.jpg",
+        "price": 54790,
+        "category": "gaming"
+      },
+      {
+        "id": 12,
+        "name": "headphone",
+        "image": "./images/image6.jpg",
+        "price": 54790,
+        "category": "headphone"
+      },
+      {
+        "id": 13,
+        "name": "Gaming Controller",
+        "image": "./images/image11.jpg",
+        "price": 54790,
+        "category": "gaming"
+      },
+      {
+        "id": 14,
+        "name": "headphone",
+        "image": "./images/image7.jpg",
+        "price": 54790,
+        "category": "headphone"
+      },
+      {
+        "id": 15,
+        "name": "Camera",
+        "image": "./images/image17.jpg",
+        "price": 54790,
+        "category": "camera"
+      },
+      {
+        "id": 15,
+        "name": "Watch",
+        "image": "./images/image29.jpg",
+        "price": 54790,
+        "category": "watch"
+      }
+  ]

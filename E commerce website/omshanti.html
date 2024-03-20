@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Container</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.image-container {
+  order: 1;
+}
+
+.description-container {
+  display: none;
+}
+
+button {
+  margin-top: 20px;
+}
+
+</style>
+<body>
+
+<div class="container">
+  <div class="image-container">
+    <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="Example Image" id="image">
+  </div>
+  <div class="description-container" style="display: none;">
+    <p>This is the description text.</p>
+  </div>
+  <button id="generateButton">Generate</button>
+</div>
+
+<script>
+    document.getElementById('generateButton').addEventListener('click', function() {
+  var imageContainer = document.querySelector('.image-container');
+  var descriptionContainer = document.querySelector('.description-container');
+
+  // Toggle display between image and description containers
+  if (imageContainer.style.display === 'none') {
+    imageContainer.style.display = 'block';
+    descriptionContainer.style.display = 'none';
+  } else {
+    imageContainer.style.display = 'none';
+    descriptionContainer.style.display = 'block';
+  }
+});
+
+</script>
+</body>
+</html>

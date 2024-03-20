@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Game Controller",
+      "image": "./images/image10.jpg",
+      "price": 54790,
+      "category": "headphone"
+    },
+    {
+      "id": 2,
+      "name": "watch",
+      "image": "./images/image34.jpg",
+      "price": 1746500,
+      "category": "watch"
+    },
+    {
+      "id": 3,
+      "name": "watch",
+      "image": "./images/image30.jpg",
+      "price": 1746500,
+      "category": "watch"
+    }
+  ]

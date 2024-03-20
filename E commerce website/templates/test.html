@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../test.css">
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="cart-section">
+            <h1>Cart</h1>
+            <ul id="cart-items"></ul>
+        </div>
+    <header class="navbar">
+        <div class="logo"><p>Trendify</p></div>
+        <div class="items" id="hide">Home<i class="fa-solid fa-house"></i></div>
+        <div class="items cart"  id="hide">
+            <div><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Cart</p>
+        </div>
+        <div class="search-item">Search<input type="search" placeholder="search" id="searchInput"></div>
+        <div class="items" id="hide" style="font-size: 33px;"><a href="../imageInput.html"><i  class="fa-solid fa-camera-retro"></i></a> </div>
+        <div class="items" id="hide"><a href="../contact.html">Contact Us</a></div>
+        <div class="items" id="aboutBtn">About<i class="fa-solid fa-circle-question"></i></div>
+        <div class="items login"  id="hide"><a href="../login.html">Login <i class="fa-solid fa-right-to-bracket"></i></a></div>
+        <div class="items" id="bars"><i class="fa-solid fa-bars" style="font-size: 25px;" onclick="showSidebar()"></i></div>
+    </header>
+    <header class="navbar2">
+        <div class="items"><i class="fa-solid fa-xmark" style="font-size: 25px;" onclick="hidesidebar()"></i></div>
+        <div class="items">Home <i class="fa-solid fa-house"></i></div>
+        <div class="items">About <i class="fa-solid fa-circle-question"></i></div>
+        <div class="items"><a href="../contact.html">Contact Us</a></div>
+        <div class="items cart">
+            <div><i class="fa-solid fa-cart-shopping"></i></div>
+            <p>Cart</p>
+        </div>
+        <div class="items login">Login <i class="fa-solid fa-right-to-bracket"></i></div>
+    </header>
+    <div class="hero-content">
+        <h1 class="head1">Keep up</h1>
+        <h2 class="head2">with the era</h2>
+        <p>Change your experience to the next level with our products.<br /> Unlock a world of possibilities.</p>
+        <button class="btn"><a href="../shope.html">Shop Now</a></button>
+    </div>
+    </div>
+    <div class="section-2">
+        <div class="section2-content">
+            <div class="section2-items">
+        <div class="info info1">
+            <div class="icon1">
+                <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="contnt1">
+                <h1>FREE SHIPPING WORLDWIDE</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas, sapiente!
+                </p>
+            </div>
+        </div>
+        <div class="info info2">
+            <div class="icon2"><i class="fa-solid fa-headphones-simple"></i></div>
+            <div class="contnt2">
+                <h1>24/7 CUSTOMER SERVICE</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, accusantium?</p>
+            </div>
+        </div>
+        <div class="info info3">
+            <div class="icon2"><i class="fa-solid fa-money-check-dollar"></i></div>
+            <div class="contnt2">
+                <h1>MONEY BACK GUARANTEE</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, cumque.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section2-item2">
+        <div class="info4">
+            <h1>ENHANCE YOUR EXPERIENCE</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, totam unde. Perferendis nulla quas itaque voluptatibus sapiente modi animi corrupti?</p>
+            <button class="btn2"><a href="../gaming.html">Explore now</a></button>
+        </div>
+        <div class="images">
+            <div class="item item1"></div>
+            <div class="item item2"></div>
+            <div class="item item3"></div>
+            <div class="item item4"></div>
+        </div>
+    </div>
+    <div class="heading2"><h1 class="head3">Product Categories</h1></div>
+    <div class="section3-item3">
+        <div class="product prod1">
+            <div class="img1"></div>
+            <h2 class="gaming">Gaming</h2>
+            <button class="shop"><a href="../gaming.html">Shop Now</a></button>
+        </div>
+        <div class="product prod2">
+            <div class="img2"></div>
+            <h2 class="headphone">Headphones</h2>
+            <button class="shop"><a href="../headphones.html">Shop Now</a></button>
+        </div>
+        <div class="product prod3">
+            <div class="img3"></div>
+            <h2 class="watches">Watches</h2>
+            <button class="shop"><a href="../watches.html">Shop Now</a></button>
+        </div>
+        <div class="product prod4">
+            <div class="img4"></div>
+            <h2 class="camera">Camera</h2>
+            <button class="shop"><a href="../camera.html">Shop Now</a></button>
+        </div>
+    </div>
+    <div class="heading3"><h1 class="head4">Explore Our Products</h1></div>
+      <!-- Previous Button -->
+      <button class="prev-button"><i class="fas fa-chevron-left"></i></button>
+      <!-- Next Button -->
+      <button class="next-button"><i class="fas fa-chevron-right"></i></button>
+      <div class="section2-items">
+    <div class="section4-content">
+        <div class="grid-section">
+            <div class="stuff-content">
+                <div class="images image1"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">StealthBeat</h1>
+                        <p>Unleash the rhythm of your favorite tunes with StealthBeat headphones. </p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image2"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">NovaControl</h1>
+                        <p>Take control like never before with NovaControl</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image3"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">Eclipse Elite</h1>
+                        <p>Embrace the timeless elegance of the Eclipse Elite.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image4"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">AuraShot</h1>
+                        <p>where every click paints a masterpiece.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image5"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">HyperEdge</h1>
+                        <p>Experience gaming at the cutting edge with HyperEdge</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image6"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">Zenith Forge</h1>
+                        <p>The Zenith Forge embodies the essence of innovation and tradition.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image7"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">Go Pro</h1>
+                        <p>The ultimate companion for capturing life's most thrilling moments. </p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image8"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">SonicSurge</h1>
+                        <p>Immerse yourself in a world of unparalleled audio clarity with SonicSurge.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- next 8 -->
+            <div class="stuff-content">
+                <div class="images image9"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">StealthBeat</h1>
+                        <p>Unleash the rhythm of your favorite tunes with StealthBeat headphones. </p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image10"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">NovaControl</h1>
+                        <p>Take control like never before with NovaControl</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image11"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">Eclipse Elite</h1>
+                        <p>Embrace the timeless elegance of the Eclipse Elite.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image12"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">AuraShot</h1>
+                        <p>where every click paints a masterpiece.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image13"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">HyperEdge</h1>
+                        <p>Experience gaming at the cutting edge with HyperEdge</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image14"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">Zenith Forge</h1>
+                        <p>The Zenith Forge embodies the essence of innovation and tradition.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image15"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">Go Pro</h1>
+                        <p>The ultimate companion for capturing life's most thrilling moments. </p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="stuff-content">
+                <div class="images image16"></div>
+                <div class="detail">
+                    <div class="price">
+                        <h1 class="title">SonicSurge</h1>
+                        <p>Immerse yourself in a world of unparalleled audio clarity with SonicSurge.</p>
+                    </div>
+                    <div class="fav">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="heading4"><h1 class="head5">Stay Ahead of the Curve</h1></div>
+    <div class="grid-section2">
+    </div>
+    </div>
+    <div class="about">
+        <div class="heading6">
+            <div class="main-heading">
+            <h1>About </h1><h2>Trendify</h2>
+            </div>
+            <p>At Trendify, we're more than just a store. We're a passionate team dedicated to bringing you the latest and greatest in technology and fashion. Our mission is simple: to provide you with top-quality products that enhance your lifestyle and keep you ahead of the curve.</p>
+        </div>
+        <div class="about-img">
+    
+        </div>
+        </div>
+        <div class="about-2">
+            <div class="about-2-img">
+
+            </div>
+            <div class="heading7">
+                <h1>Our Story</h1>
+                <p>Trendify began with a simple idea: to revolutionize the way people interact with technology by curating a collection of the most innovative and trendsetting gadgets from around the world.
+                    <br /><br />
+                    Founded by a team of tech enthusiasts and trendsetters, Trendify was born out of a shared passion for creativity, innovation, and the desire to bring cutting-edge technology to the fingertips of every individual.
+                    <br /><br />
+                    From humble beginnings, Trendify has grown into a trusted destination for those seeking the next big thing in tech. We've scoured the globe to bring you a handpicked selection of products that not only meet our high standards of quality and functionality but also embody the spirit of innovation and uniqueness.
+                    <br /><br />
+                    But our story doesn't end there. We're constantly evolving and adapting to the ever-changing landscape of technology, always on the lookout for the next big trend or breakthrough innovation. Our commitment to staying ahead of the curve drives us to push boundaries, explore new possibilities, and redefine the future of gadgets.</p>
+                    <div class="back_text">Trendify</div>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <div class="footer_logo">Trendify</div>
+                    <p class="footer_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore harum molestias nesciunt, 
+                        doloremque magni aspernatur iste blanditiis, fugiat quaerat accusamus ut, vero tempore. 
+                        Fugiat, illum!
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Office <div class="bottom_line"><span></span></div></h3>
+                    <p>2841 Romines Mill Road</p>
+                    <p>Plano</p>
+                    <p>Texas, ZIP 75074, United States</p>
+                    <p class="footer_email">alexastockphotos@gamil.com</p>
+                    <h4>+1 - 2145958195</h4>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="bottom_line"><span></span></div></h3>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">SERVICE</a></li>
+                        <li><a href="">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Newsletter <div class="bottom_line"><span></span></div></h3>
+                    <form>
+                        <ion-icon class="icon" name="mail"></ion-icon>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><ion-icon class="icon_right" name="arrow-round-forward"></ion-icon></button>
+                    </form>
+                    <div class="social_icons">
+                        <ion-icon class="social_icon" name="logo-facebook"></ion-icon>
+                        <ion-icon class="social_icon" name="logo-whatsapp"></ion-icon>
+                        <ion-icon class="social_icon" name="logo-twitter"></ion-icon>
+                        <ion-icon class="social_icon" name="logo-instagram"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Cosas Learning Ⓒ 2022 - All Rights Reserved</p>
+         </footer> 
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+            const aboutBtn = document.getElementById('aboutBtn');
+            const aboutSection = document.querySelector('.about');
+
+            aboutBtn.addEventListener('click', function() {
+                aboutSection.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    document.addEventListener("DOMContentLoaded", function() {
+  const prevButton = document.querySelector(".prev-button");
+  const nextButton = document.querySelector(".next-button");
+  const gridSection = document.querySelector(".grid-section");
+  const gridItems = document.querySelectorAll(".stuff-content");
+  
+  let currentPage = 0;
+  const pageSize = 8; // Number of items per page
+  const totalItems = gridItems.length; // Total number of items
+  const totalPages = Math.ceil(totalItems / pageSize); // Total number of pages
+  
+  function showPage(page) {
+    const startIndex = page * pageSize;
+    const endIndex = Math.min(startIndex + pageSize, totalItems);
+  
+    // Hide all items
+    gridItems.forEach(item => {
+      item.style.display = "none";
+    });
+  
+    // Show items for the current page
+    for (let i = startIndex; i < endIndex; i++) {
+      gridItems[i].style.display = "flex";
+    }
+  }
+  
+  function goToNextPage() {
+    if (currentPage < totalPages - 1) {
+      currentPage++;
+      showPage(currentPage);
+    }
+  }
+  
+  function goToPrevPage() {
+    if (currentPage > 0) {
+      currentPage--;
+      showPage(currentPage);
+    }
+  }
+  
+  showPage(currentPage);
+  
+  nextButton.addEventListener("click", goToNextPage);
+  prevButton.addEventListener("click", goToPrevPage);
+});
+            document.addEventListener("DOMContentLoaded", function() {
+            const cartSection = document.querySelector(".cart-section");
+            const cartCount = document.getElementById("cart-count");
+            const cartItems = document.getElementById("cart-items");
+
+            // Function to toggle cart visibility
+            function toggleCart() {
+                cartSection.classList.toggle("show-cart");
+            }
+
+            // Event listener for the navbar cart button
+            const navbarCartButton = document.querySelector(".fa-cart-shopping");
+            navbarCartButton.addEventListener("click", toggleCart);
+
+            const products = [
+    {
+        "name": "Product 1",
+        "price": "20$",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "image": "./images/image10.jpg"
+    },
+    {
+        "name": "Product 2",
+        "price": "25$",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "image": "./images/image34.jpg"
+    },
+    {
+        "name": "Product 3",
+        "price": "30$",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "image": "./images/image30.jpg"
+    }
+];
+
+// Get the container for products
+const productContainer = document.querySelector(".grid-section2");
+
+// Dynamically generate product cards from JSON data
+products.forEach((product, index) => {
+    const productCard = document.createElement("div");
+    productCard.classList.add("product", `card${index + 1}`);
+
+    const productPhoto = document.createElement("div");
+    productPhoto.classList.add("photo");
+    productPhoto.style.backgroundImage = `url('${product.image}')`;
+
+    const productName = document.createElement("h1");
+    productName.textContent = product.name;
+
+    const productPrice = document.createElement("p");
+    productPrice.textContent = product.price;
+
+    const addToCartButton = document.createElement("button");
+    addToCartButton.classList.add("buy");
+    addToCartButton.textContent = "Add to Cart";
+
+    // Add event listener to the "Add to Cart" button
+    addToCartButton.addEventListener("click", function() {
+        addToCart(product.name, product.price, product.image);
+    });
+
+    productCard.appendChild(productPhoto);
+    productCard.appendChild(productName);
+    productCard.appendChild(productPrice);
+    productCard.appendChild(addToCartButton);
+
+    productContainer.appendChild(productCard);
+});
+
+// Function to add product to the cart
+function addToCart(productName, productPrice, productImage) {
+    const cartItem = document.createElement("li");
+                cartItem.innerHTML = `
+                    <div class="product-detail">
+                    <img class="product-img" src="${productImage}" alt="${productName}">
+                    <div class="product-info">
+                    <span class="product-name">Product: ${productName}</span>
+                    <br />
+                    <span class="product-price">Price: ${productPrice}</span>
+                    <br />
+                    </div>
+                    </div>
+                `;
+                cartItems.appendChild(cartItem);
+
+                // Update cart count
+                cartCount.textContent = `Cart (${cartItems.children.length})`;
+
+                // Log added product
+                console.log("Added to cart:", productName);
+
+}
+  
+});
+
+function showSidebar()
+    {
+        const sidebar = document.querySelector('.navbar2')
+        sidebar.style.display = "flex"
+    }
+
+    function hidesidebar()
+    {
+        const sidebar = document.querySelector('.navbar2')
+        sidebar.style.display = "none"
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById("searchInput");
+    const items = document.querySelectorAll(".stuff-content");
+
+    searchInput.addEventListener("input", function() {
+        const searchTerm = searchInput.value.trim().toLowerCase();
+
+        items.forEach(item => {
+            const title = item.querySelector(".title").textContent.toLowerCase();
+            const description = item.querySelector("p").textContent.toLowerCase();
+            const isVisible = title.includes(searchTerm) || description.includes(searchTerm);
+            
+            item.style.display = isVisible ? "block" : "none";
+        });
+
+        // If search term is empty, show all items
+        if (searchTerm === "") {
+            items.forEach(item => {
+                window.location.href="test.html"
+            });
+        }
+    });
+});
+</script>
+</html>

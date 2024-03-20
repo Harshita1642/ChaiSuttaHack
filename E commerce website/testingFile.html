@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Information</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#get_json_btn").click(function() {
+                $.getJSON("http://127.0.0.1:5000/get_json", function(data) {
+                    $("#product_name").text(data.name);
+                    $("#product_price").text("$" + data.price.toFixed(2));
+                    $("#product_description").text(data.description);
+                    $("#product_rating").text(data.ratings.average + " stars");
+                });
+            });
+        });
+    </script>
+    
+</head>
+<body>
+    <h1>Product Information</h1>
+    <button id="get_json_btn">Get Product Info</button>
+    <br>
+    <p>Name: <span id="product_name"></span></p>
+    <p>Price: <span id="product_price"></span></p>
+    <p>Description: <span id="product_description"></span></p>
+    <p>Rating: <span id="product_rating"></span></p>
+</body>
+</html>

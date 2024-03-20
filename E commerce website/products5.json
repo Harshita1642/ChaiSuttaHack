@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "RetroVision Cam",
+      "image": "./images/image15.jpg",
+      "price": 79900,
+      "category": "camera"
+    },
+    {
+      "id": 2,
+      "name": "FocusMaster DSLR",
+      "image": "./images/image16.jpg",
+      "price": 64900,
+      "category": "camera"
+    },
+    {
+      "id": 3,
+      "name": "VistaZoom 4K",
+      "image": "./images/image17.jpg",
+      "price": 89900,
+      "category": "camera"
+    },
+    {
+      "id": 4,
+      "name": "CineMagic Pro",
+      "image": "./images/image18.jpg",
+      "price": 99900,
+      "category": "camera"
+    },
+    {
+      "id": 5,
+      "name": "CaptureElite X",
+      "image": "./images/image19.jpg",
+      "price": 74900,
+      "category": "camera"
+    },
+    {
+      "id": 6,
+      "name": "PixelPerfect HD",
+      "image": "./images/image20.jpg",
+      "price": 54900,
+      "category": "camera"
+    },
+    {
+      "id": 7,
+      "name": "ZoomMaster Ultra",
+      "image": "./images/image21.jpg",
+      "price": 109900,
+      "category": "camera"
+    },
+    {
+      "id": 8,
+      "name": "ApertureX Mirrorless",
+      "image": "./images/image22.jpg",
+      "price": 78900,
+      "category": "camera"
+    },
+    {
+      "id": 9,
+      "name": "LensCraft Elite",
+      "image": "https://img.freepik.com/free-photo/camera-photographic-equipment-lens-technology-generative-ai_188544-19482.jpg",
+      "price": 69900,
+      "category": "camera"
+    },
+    {
+      "id": 10,
+      "name": "InfinityFocus 360",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT_jgioONuOk46FsluTuZzczoeIpXxqIQTTk546Os5LJA2_PxIoQlJzDbloEBiTgY6j2qxx8Rj6mXLBqY7isEiPOKX77nDVqCm-9_L_YTmzWOWO89XBcAMxcA&usqp=CAE",
+      "price": 84900,
+      "category": "camera"
+    }
+  ]
+  
